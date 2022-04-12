@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body {
-    
+html, body {   
     width: 100vw;
     height: 100vh;
 }
@@ -21,61 +22,373 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 
 .sub-cont {
-    background-color: rgb(126, 122, 122);
+    background-color: hsl(226, 43%, 10%);
     color: aliceblue;
     width: 60em;
     height: 30em;
-    position: absolute;  
+    position: relative;  
     display: grid;
-    
     grid-template-areas: "a b c d"
                          "a e f g";
-    grid-gap: 5px;
+    grid-gap: 20px;
     justify-items: center;
-   
 }
 
 .card-p {
-    background-color: hsl(246, 80%, 60%);
+    background-color: hsl(235, 46%, 20%);
     color: white;
-    grid-area: a;
-    
+    grid-area: a; 
+    border-radius: 15px; 
+}
+
+.card-p01 {
+    background-color: hsl(246, 80%, 60%);
+    display: flex;
+    flex-direction: column;  
+    width: 230px;
+    height: 300px;
+    align-items: flex-start;
+    padding: 2rem;
+    border-radius: 15px;
+
+}
+
+.img img {
+    width: 5rem;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-right: 1rem;
+    margin-bottom: 35px;
+}
+
+
+.card-p01 h1 {
+    display: flex;
+    flex-direction: column;
+    color: rgba(249, 250, 251, 0.384);
+    font-size: .8rem; 
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+#robson {
+    color: hsl(236, 100%, 87%);
+    font-size: 1.8rem;
 }
 
 .card-p02 {
-    background-color: hsl(264, 64%, 52%);
+    background-color: hsl(235, 46%, 20%);
     grid-area: a;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 180px;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-p02 button {
+    border: none;
+    background: none;
+    color: hsl(235, 45%, 61%);
+    font-size: 1rem;
+    cursor: pointer;
+    gap: 1.2rem;
+    margin: 1.4rem 0 .8rem 2rem;
+}
+
+.card-p02 button:hover {
+    color: hsl(237, 85%, 95%);
 }
 
 .card01 {
-    background-color: hsl(43, 84%, 65%);
+    background-color: hsl(15, 100%, 70%);
     grid-area: b;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 15px;
+    background-image: url(./images/icon-work.svg);
+    background-position: 10rem top;
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
 }
+
+.card-01 {
+    background-color: hsl(235, 46%, 20%);
+    width: 230px;
+    height: 85%;
+    border-radius: 15px;
+    justify-items: flex-start;
+}
+
+.card-01 h3 {
+    color: hsl(237, 85%, 95%);
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.8rem 2rem;
+}
+
+.card-01 h2 {
+    color: hsl(237, 85%, 95%);
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding: .5rem 1.7rem;
+}
+
+.card-01 h1 {
+    color: hsl(236, 100%, 87%);
+    font-size: .8rem;
+    font-weight: 300;
+    padding-left: 1.7rem;
+}
+
 
 .card02 {
     background-color: hsl(195, 74%, 62%);
     grid-area: c;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 15px;
+    background-image: url(./images/icon-play.svg);
+    background-position: 10rem top;
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+}
+
+.card-02 {
+    background-color: hsl(235, 46%, 20%);
+    width: 230px;
+    height: 85%;
+    border-radius: 15px;
+    justify-items: flex-start;
+}
+
+.card-02 h3 {
+    color: hsl(237, 85%, 95%);
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.8rem 2rem;
+}
+
+.card-02 h2 {
+    color: hsl(237, 85%, 95%);
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding: .5rem 1.7rem;
+}
+
+.card-02 h1 {
+    color: hsl(236, 100%, 87%);
+    font-size: .8rem;
+    font-weight: 300;
+    padding-left: 1.7rem;
 }
 .card03 {
     background-color: hsl(348, 100%, 68%);
     grid-area: d;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 15px;
+    background-image: url(./images/icon-study.svg);
+    background-position: 10rem top;
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+}
+
+.card-03 {
+    background-color: hsl(235, 46%, 20%);
+    width: 230px;
+    height: 85%;
+    border-radius: 15px;
+    justify-items: flex-start;
+}
+
+.card-03 h3 {
+    color: hsl(237, 85%, 95%);
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.8rem 2rem;
+}
+
+.card-03 h2 {
+    color: hsl(237, 85%, 95%);
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding: .5rem 1.7rem;
+}
+
+.card-03 h1 {
+    color: hsl(236, 100%, 87%);
+    font-size: .8rem;
+    font-weight: 300;
+    padding-left: 1.7rem;
 }
 
 .card04 {
     background-color: hsl(145, 58%, 55%)    ;
     grid-area: e;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 15px;
+    background-image: url(./images/icon-exercise.svg);
+    background-position: 10rem top;
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+}
+
+.card-04 {
+    background-color: hsl(235, 46%, 20%);
+    width: 230px;
+    height: 85%;
+    border-radius: 15px;
+    justify-items: flex-start;
+}
+
+.card-04 h3 {
+    color: hsl(237, 85%, 95%);
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.8rem 2rem;
+}
+
+.card-04 h2 {
+    color: hsl(237, 85%, 95%);
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding: .5rem 1.7rem;
+}
+
+.card-04 h1 {
+    color: hsl(236, 100%, 87%);
+    font-size: .8rem;
+    font-weight: 300;
+    padding-left: 1.7rem;
 }
 
 .card05 {
     background-color: hsl(264, 64%, 52%);
     grid-area: f;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 15px;
+    background-image: url(./images/icon-social.svg);
+    background-position: 10rem top;
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+}
+
+.card-05 {
+    background-color: hsl(235, 46%, 20%);
+    width: 230px;
+    height: 85%;
+    border-radius: 15px;
+    justify-items: flex-start;
+}
+
+.card-05 h3 {
+    color: hsl(237, 85%, 95%);
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.8rem 2rem;
+}
+
+.card-05 h2 {
+    color: hsl(237, 85%, 95%);
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding: .5rem 1.7rem;
+}
+
+.card-05 h1 {
+    color: hsl(236, 100%, 87%);
+    font-size: .8rem;
+    font-weight: 300;
+    padding-left: 1.7rem;
 }
 
 .card06 {
     background-color: hsl(43, 84%, 65%);
     grid-area: g;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 15px;
+    background-image: url(./images/icon-self-care.svg);
+    background-position: 10rem top;
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
 }
+
+.card-06 {
+    background-color: hsl(235, 46%, 20%);
+    width: 230px;
+    height: 85%;
+    border-radius: 15px;
+    justify-items: flex-start;
+}
+
+.card-06 h3 {
+    color: hsl(237, 85%, 95%);
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.8rem 2rem;
+}
+
+.card-06 h2 {
+    color: hsl(237, 85%, 95%);
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding: .5rem 1.7rem;
+}
+
+.card-06 h1 {
+    color: hsl(236, 100%, 87%);
+    font-size: .8rem;
+    font-weight: 300;
+    padding-left: 1.7rem;
+}
+
+/*
+  html {
+    color: hsl(246, 80%, 60%);
+
+    color:  hsl(15, 100%, 70%);
+
+    color:  hsl(195, 74%, 62%);
+
+    color:  hsl(348, 100%, 68%);
+
+    color: hsl(145, 58%, 55%);
+
+    color: hsl(264, 64%, 52%);
+
+    color: hsl(43, 84%, 65%);
+
+
+color: hsl(226, 43%, 10%);
+color: hsl(235, 46%, 20%);
+color: hsl(235, 45%, 61%);
+color: hsl(236, 100%, 87%)
+}
+*/
