@@ -118,7 +118,7 @@ html, body {
     background-size: 3.5rem;
 }
 
-.card-01 {
+#card-01 {
     background-color: hsl(235, 46%, 20%);
     width: 230px;
     height: 85%;
@@ -126,7 +126,7 @@ html, body {
     justify-items: flex-start;
 }
 
-.card-01 h3 {
+#card-01 h3 {
     color: hsl(237, 85%, 95%);
     max-width: 100%;
     display: flex;
@@ -135,14 +135,14 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-.card-01 h2 {
+#card-01 h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
     padding: .5rem 1.7rem;
 }
 
-.card-01 h1 {
+#card-01 h1 {
     color: hsl(236, 100%, 87%);
     font-size: .8rem;
     font-weight: 300;
@@ -150,7 +150,7 @@ html, body {
 }
 
 
-.card02 {
+#card02 {
     background-color: hsl(195, 74%, 62%);
     grid-area: c;
     display: flex;
@@ -163,7 +163,7 @@ html, body {
     background-size: 3.5rem;
 }
 
-.card-02 {
+#card-02 {
     background-color: hsl(235, 46%, 20%);
     width: 230px;
     height: 85%;
@@ -171,7 +171,7 @@ html, body {
     justify-items: flex-start;
 }
 
-.card-02 h3 {
+#card-02 h3 {
     color: hsl(237, 85%, 95%);
     max-width: 100%;
     display: flex;
@@ -180,20 +180,20 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-.card-02 h2 {
+#card-02 h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
     padding: .5rem 1.7rem;
 }
 
-.card-02 h1 {
+#card-02 h1 {
     color: hsl(236, 100%, 87%);
     font-size: .8rem;
     font-weight: 300;
     padding-left: 1.7rem;
 }
-.card03 {
+#card03 {
     background-color: hsl(348, 100%, 68%);
     grid-area: d;
     display: flex;
@@ -206,7 +206,7 @@ html, body {
     background-size: 3.5rem;
 }
 
-.card-03 {
+#card-03 {
     background-color: hsl(235, 46%, 20%);
     width: 230px;
     height: 85%;
@@ -214,7 +214,7 @@ html, body {
     justify-items: flex-start;
 }
 
-.card-03 h3 {
+#card-03 h3 {
     color: hsl(237, 85%, 95%);
     max-width: 100%;
     display: flex;
@@ -223,21 +223,21 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-.card-03 h2 {
+#card-03 h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
     padding: .5rem 1.7rem;
 }
 
-.card-03 h1 {
+#card-03 h1 {
     color: hsl(236, 100%, 87%);
     font-size: .8rem;
     font-weight: 300;
     padding-left: 1.7rem;
 }
 
-.card04 {
+#card04 {
     background-color: hsl(145, 58%, 55%)    ;
     grid-area: e;
     display: flex;
@@ -250,7 +250,7 @@ html, body {
     background-size: 3.5rem;
 }
 
-.card-04 {
+#card-04 {
     background-color: hsl(235, 46%, 20%);
     width: 230px;
     height: 85%;
@@ -258,7 +258,7 @@ html, body {
     justify-items: flex-start;
 }
 
-.card-04 h3 {
+#card-04 h3 {
     color: hsl(237, 85%, 95%);
     max-width: 100%;
     display: flex;
@@ -267,21 +267,21 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-.card-04 h2 {
+#card-04 h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
     padding: .5rem 1.7rem;
 }
 
-.card-04 h1 {
+#card-04 h1 {
     color: hsl(236, 100%, 87%);
     font-size: .8rem;
     font-weight: 300;
     padding-left: 1.7rem;
 }
 
-.card05 {
+#card05 {
     background-color: hsl(264, 64%, 52%);
     grid-area: f;
     display: flex;
@@ -294,7 +294,7 @@ html, body {
     background-size: 3.5rem;
 }
 
-.card-05 {
+#card-05 {
     background-color: hsl(235, 46%, 20%);
     width: 230px;
     height: 85%;
@@ -302,7 +302,7 @@ html, body {
     justify-items: flex-start;
 }
 
-.card-05 h3 {
+#card-05 h3 {
     color: hsl(237, 85%, 95%);
     max-width: 100%;
     display: flex;
@@ -311,21 +311,21 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-.card-05 h2 {
+#card-05 h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
     padding: .5rem 1.7rem;
 }
 
-.card-05 h1 {
+#card-05 h1 {
     color: hsl(236, 100%, 87%);
     font-size: .8rem;
     font-weight: 300;
     padding-left: 1.7rem;
 }
 
-.card06 {
+#card06 {
     background-color: hsl(43, 84%, 65%);
     grid-area: g;
     display: flex;
@@ -338,7 +338,7 @@ html, body {
     background-size: 3.5rem;
 }
 
-.card-06 {
+#card-06 {
     background-color: hsl(235, 46%, 20%);
     width: 230px;
     height: 85%;
@@ -346,7 +346,7 @@ html, body {
     justify-items: flex-start;
 }
 
-.card-06 h3 {
+#card-06 h3 {
     color: hsl(237, 85%, 95%);
     max-width: 100%;
     display: flex;
@@ -355,14 +355,14 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-.card-06 h2 {
+#card-06 h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
     padding: .5rem 1.7rem;
 }
 
-.card-06 h1 {
+#card-06 h1 {
     color: hsl(236, 100%, 87%);
     font-size: .8rem;
     font-weight: 300;
