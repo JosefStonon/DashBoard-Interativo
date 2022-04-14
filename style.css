@@ -135,7 +135,7 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-#card-01 h2 {
+#card-01 .daily h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
@@ -180,7 +180,7 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-#card-02 h2 {
+#card-02 .daily h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
@@ -223,7 +223,7 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-#card-03 h2 {
+#card-03 .daily h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
@@ -267,7 +267,7 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-#card-04 h2 {
+#card-04 .daily h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
@@ -311,7 +311,7 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-#card-05 h2 {
+#card-05 .daily h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
@@ -355,7 +355,7 @@ html, body {
     padding: 1.8rem 2rem;
 }
 
-#card-06 h2 {
+#card-06 .daily h2 {
     color: hsl(237, 85%, 95%);
     font-size: 3.5rem;
     font-weight: 500;
@@ -367,6 +367,10 @@ html, body {
     font-size: .8rem;
     font-weight: 300;
     padding-left: 1.7rem;
+}
+
+.weekly, .monthly {
+    display: none;
 }
 
 /*
