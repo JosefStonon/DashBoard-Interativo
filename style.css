@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html, body {   
@@ -105,7 +106,7 @@ html, body {
     color: hsl(237, 85%, 95%);
 }
 
-.card01 {
+#card01 {
     background-color: hsl(15, 100%, 70%);
     grid-area: b;
     display: flex;
@@ -132,7 +133,7 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.8rem 2rem;
+    padding: 1.8rem 1.5rem;
 }
 
 #card-01 .daily h2 {
