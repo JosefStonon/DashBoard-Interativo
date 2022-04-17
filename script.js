@@ -1,3 +1,11 @@
+const daily = document.getElementById("daily-btn");
+const weekly = document.getElementById("weekly-btn");
+const monthly = document.getElementById("monthly-btn");
+
+console.log(daily);
+console.log(weekly);
+console.log(monthly);
+
 const dayarr = document.querySelectorAll(".daily");
 const weekarr = document.querySelectorAll(".weekly");
 const montarr = document.querySelectorAll(".monthly");
