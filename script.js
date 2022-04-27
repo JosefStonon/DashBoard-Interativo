@@ -1,70 +1,60 @@
-const daily = document.getElementById("daily-btn");
-const weekly = document.getElementById("weekly-btn");
-const monthly = document.getElementById("monthly-btn");
+const dailybtn = document.getElementById("daily-btn");
+const weeklybtn = document.getElementById("weekly-btn");
+const monthlybtn = document.getElementById("monthly-btn");
 
-console.log(daily);
-console.log(weekly);
-console.log(monthly);
-
-const dayarr = document.querySelectorAll(".daily");
-const weekarr = document.querySelectorAll(".weekly");
-const montarr = document.querySelectorAll(".monthly");
+const arrdaily = document.querySelectorAll(".daily");
+const arrweekly = document.querySelectorAll(".weekly");
+const arrmonthly = document.querySelectorAll(".monthly");
 
 
 
 
-daily.addEventListener("click", () => {
-    dayarr.forEach((arr) => {
-            arr.classList.Add("active");
-        });
+dailybtn.addEventListener("click", () => {
+    arrdaily.forEach((arr) => {
+        arr.classList.add("active")
+    })
 
-
-    weekarr.forEach((arr) => {
-        arr.classList.remove("active");
-
+    arrweekly.forEach((arr) => {
+        arr.classList.remove("active")
     });
 
-    montarr.forEach((array) => {
-        array.classList.remove("active");
-
+    arrmonthly.forEach((arr) => {
+        arr.classList.remove("active")
     });
 
 });
 
-weekly.addEventListener("click", () => {
-    weekarr.forEach((array) => {
-        array.classList.add("active");
 
+
+weeklybtn.addEventListener("click", () => {
+    arrweekly.forEach((arr) => {
+        arr.classList.add("active")
     });
 
-
-    dayarr.forEach((array) => {
-        array.classList.remove("active");
-
+    arrdaily.forEach((arr) => {
+        arr.classList.remove("active")
     });
 
-    montarr.forEach((array) => {
-        array.classList.remove("active");
-
+    arrmonthly.forEach((arr) => {
+        arr.classList.remove("active")
     });
-
 });
 
-monthly.addEventListener("click", () => {
-    montarr.forEach((array) => {
-        array.classList.add("active");
+monthlybtn.addEventListener("click", () => {
+    arrmonthly.forEach((arr) => {
+        arr.classList.add("active")
+    });
+
+    arrweekly.forEach((arr) => {
+        arr.classList.remove("active")
+    });
+
+    arrdaily.forEach((arr) => {
+        arr.classList.remove("active")
     });
 
 
-    weekarr.forEach((array) => {
-        array.classList.remove("active");
 
-    });
-
-    dayarr.forEach((array) => {
-        array.classList.remove("active");
-
-    });
 
 });
 
